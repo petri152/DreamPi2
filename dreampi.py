@@ -216,7 +216,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) == 2:
         if sys.argv[1] == "start":
-            deamon.start()
+            daemon.start()
         elif sys.argv[1] == "stop":
             daemon.stop()
         elif sys.argv[1] == "restart":
