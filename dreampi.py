@@ -19,7 +19,7 @@ class Daemon(object):
         self.pidfile = pidfile
         self.process = process
 
-    def deamonize(self):
+    def daemonize(self):
         try:
             pid = os.fork()
             if pid > 0:
