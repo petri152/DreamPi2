@@ -7,6 +7,7 @@ import sys
 import time
 import subprocess
 import sh
+import atexit
 
 from datetime import datetime, timedelta
 
